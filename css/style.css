@@ -1,3 +1,7 @@
+@import "../../fonts/lato_regular/lato_regular.css";
+@import "../../fonts/gothampro-black/gothampro-black.css";
+@import "../../fonts/myriadpro-light/myriadpro-light.css";
+@import "../../fonts/open_sans/open_sans.css";
 * {
   padding: 0;
   margin: 0;
@@ -67,4 +71,195 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+.banner .form .form__phone, .banner .form .form__email, .banner .form .form__name {
+  padding: 15px 15px 15px 40px;
+  height: 46px;
+  border-radius: 2px;
+  font-family: "Open Sans";
+  margin-top: 36px;
+}
+
+.header-block {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.header-block .header-block__img {
+  height: 50px;
+}
+.header-block .header-block__nav {
+  margin-left: auto;
+}
+.header-block .header-block__nav .nav__allMenu {
+  display: flex;
+  font-family: "Lato Regular";
+  font-size: 13.5px;
+}
+.header-block .header-block__nav .nav__allMenu .nav__elemMenu {
+  text-transform: uppercase;
+  padding: 13px 20px;
+  height: 35px;
+}
+.header-block .header-block__nav .nav__allMenu .nav__elemMenu:hover {
+  background: #ffbb42;
+  border-radius: 2px;
+}
+.header-block .header-block__nav .nav__allMenu .nav__elemMenu:hover .nav__link {
+  color: white;
+}
+.header-block .header-block__nav .nav__allMenu .nav__elemMenu .nav__link {
+  color: #9e9e9e;
+}
+
+.banner {
+  background: #709dca;
+  text-align: center;
+}
+.banner .banner__h1 {
+  font-family: "GothamPro-Black";
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 110px;
+}
+.banner .banner__text {
+  font-family: "MyriadPro-Light";
+  color: white;
+  line-height: 0.686;
+  font-size: 18px;
+}
+.banner .form .form__name {
+  background: url("../../img/icon1.png") no-repeat 17px 15px;
+  background-color: white;
+}
+.banner .form .form__email {
+  background: url("../../img/icon2.png") no-repeat 17px 15px;
+  background-color: white;
+}
+.banner .form .form__phone {
+  background: url("../../img/icon3.png") no-repeat 17px 15px;
+  background-color: white;
+}
+.banner .form .form__btn {
+  width: 210px;
+  height: 46px;
+  background: #ffbb42;
+  color: white;
+  border-radius: 2px;
+}
+.banner .banner__images {
+  position: relative;
+  top: 80px;
+}
+
+.service {
+  margin-top: 202px;
+}
+.service .service__h1 {
+  font-family: "GothamPro-Black";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #394b50;
+  text-align: center;
+}
+.service > .service__p {
+  font-family: "MyriadPro-Light";
+  font-weight: 600;
+  color: #394b50;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.service .service__twoBlocks {
+  display: flex;
+}
+.service .service__twoBlocks .service__block {
+  width: 50%;
+  margin-bottom: 81px;
+  display: flex;
+}
+.service .service__twoBlocks .service__block .service__icon {
+  height: 45px;
+  margin-right: 36px;
+}
+.service .service__twoBlocks .service__block .service__text {
+  width: 77%;
+}
+.service .service__twoBlocks .service__block .service__text .service__h3 {
+  font-family: "Lato Regular";
+  font-size: 16px;
+  color: #394b50;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.service .service__twoBlocks .service__block .service__text .service__p {
+  font-size: 13px;
+  font-family: "Open Sans";
+  color: #7b7b7b;
+  line-height: 1.692;
+}
+
+.aboutUs {
+  display: flex;
+  background: #ffc155;
+}
+.aboutUs .aboutUs__img {
+  width: 50%;
+}
+.aboutUs .aboutUs__text {
+  width: 50%;
+  color: white;
+  margin-left: 80px;
+}
+.aboutUs .aboutUs__text .aboutUs__h2 {
+  font-family: "GothamPro-Black";
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 165px;
+}
+.aboutUs .aboutUs__text .aboutUs__p {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  line-height: 1.846;
+}
+.aboutUs .aboutUs__text .aboutUs__btn {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7ad48;
+  border-radius: 2px;
+  width: 147px;
+  height: 48px;
+  font-family: "Lato Regular";
+  color: white;
+  background: #ffc155;
+}
+
+.Rounded_Rectangle_2_copy_4 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7ad48;
+  border-radius: 2px;
+  background-color: rgba(231, 173, 72, 0);
+  position: absolute;
+  left: 928px;
+  top: 2006px;
+  width: 147px;
+  height: 48px;
+  z-index: 237;
+}
+
+.Read_more {
+  font-size: 14px;
+  font-family: "Lato";
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 962px;
+  top: 2021.6px;
+  z-index: 238;
 }

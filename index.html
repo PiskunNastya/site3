@@ -13,45 +13,52 @@
 </head>
 <body>
     <header class="header">
-        <section class="container">
-            <img src="img/logo.png" alt="logo">
-            <nav class="nav">
+        <section class="header-block container">
+
+            <img class="header-block__img" src="img/logo.png" alt="logo"> 
+
+            
+            <nav class="header-block__nav">
                 <ul class="nav__allMenu">
-                    <li class="nav__elemMenu">Home</li>
-                    <li class="nav__elemMenu">Service</li>
-                    <li class="nav__elemMenu">About us</li>
-                    <li class="nav__elemMenu">Pricing table</li>
-                    <li class="nav__elemMenu">Now it work</li>
-                    <li class="nav__elemMenu">Happy clients</li>
-                    <li class="nav__elemMenu">Contact us</li>
+                    <li class="nav__elemMenu"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__elemMenu"><a class="nav__link" href="#">Service</a></li>
+                    <li class="nav__elemMenu"><a class="nav__link" href="#">About us</a></li>
+                    <li class="nav__elemMenu"><a class="nav__link" href="#">Pricing table</a></li>
+                    <li class="nav__elemMenu"><a class="nav__link" href="#">Now it work</a></li>
+                    <li class="nav__elemMenu"><a class="nav__link" href="#">Happy clients</a></li>
+                    <li class="nav__elemMenu"><a class="nav__link" href="#">Contact us</a></li>
                 </ul>
             </nav>
+            <a href=""></a>
         </section>
     </header>
 
     <main class="main">
-        <section class="banner">
-            <article class="banner__block-form">
-                <h1 class="banner__h1">Boost up your Local business</h1>
-                <p class="banner__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
-                <form class="banner__form">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
-                    <input type="text" placeholder="Phone Number">
-                    <input type="button" value="REQUEST A QUOTE">
-                </form>
-            </article>
-            <article class="banner__images">
-                <img class="banner__image" src="img/laptop.jpg" alt="laptop">
-            </article>
-            <article class="banner__circles">
-                <div class="banner__circle"></div>
-                <div class="banner__circle"></div>
-                <div class="banner__circle"></div>
-            </article>
-        </section>
+        <div class="banner">
+            <section class="container">
+                <article class="banner__block-form">
+                    <h1 class="banner__h1">Boost up your Local business</h1>
+                    <p class="banner__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
+                    <form class="banner__form form">
+                        <input class="form__name" type="text" placeholder="Full Name">
+                        <input class="form__email" type="email" placeholder="Email Address">
+                        <input class="form__phone" type="text" placeholder="Phone Number">
+                        <input class="form__btn" type="button" value="REQUEST A QUOTE">
+                    </form>
+                    <div class="banner__images">
+                        <img class="banner__image" src="img/laptop2.png" alt="laptop"> 
+                        <div class="banner__circles">
+                            <img class="banner__circle" src="img/slider_circle_active.png" alt="circle">
+                            <img class="banner__circle" src="img/slider_circle.png" alt="circle">
+                            <img class="banner__circle" src="img/slider_circle.png" alt="circle">
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
 
-        <section class="service">
+
+        <section class="service container">
             <h2 class="service__h1">Our Services</h2>
             <p class="service__p">Lorem Ipsum is simply dummy Business industry.</p>
 
@@ -124,16 +131,19 @@
 
         <section class="aboutUs">
             <img class="aboutUs__img" src="img/foto.png" alt="foto">
-            <article class="aboutUs__text">
-                <h2 class="aboutUs__h2">ABOUT US</h2>
-                <p class="aboutUs__p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                    been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                    a galley of type and scrambled it to make a type specimen book. It has survived not only five 
-                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It 
-                    was popularised in the ore recently with desktop publishing software like Aldus PageMaker 
-                    including versions of Lorem Ipsum</p>
-                <button class="aboutUs__btn">Read more</button>
-            </article>
+            <div class="container">
+                <article class="aboutUs__empty"></article>
+                <article class="aboutUs__text"> 
+                    <h2 class="aboutUs__h2">ABOUT US</h2>
+                    <p class="aboutUs__p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
+                        a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It 
+                        was popularised in the ore recently with desktop publishing software like Aldus PageMaker 
+                        including versions of Lorem Ipsum</p>
+                    <button class="aboutUs__btn">Read more</button>
+                </article>
+            </div>
         </section>
 
         <section class="pricing">
