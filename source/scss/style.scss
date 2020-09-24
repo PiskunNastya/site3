@@ -1,9 +1,9 @@
 // обнуление
 @import "zeroing.scss";
 @import "../../fonts/lato_regular/lato_regular.css"; // font-family: 'Lato Regular';
-@import "../../fonts/gothampro-black/gothampro-black.css";
-@import "../../fonts/myriadpro-light/myriadpro-light.css";
-@import "../../fonts/open_sans/open_sans.css";
+@import "../../fonts/gothampro-black/gothampro-black.css"; // font-family: 'GothamPro-Black';
+@import "../../fonts/myriadpro-light/myriadpro-light.css"; // font-family: "MyriadPro-Light";
+@import "../../fonts/open_sans/open_sans.css"; // font-family: 'Open Sans';
 
 %form___input___display {
     padding: 15px 15px 15px 40px;
@@ -208,34 +208,183 @@
         }
     }
 }
-  
 
-.Rounded_Rectangle_2_copy_4 {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(231, 173, 72);
-    border-radius: 2px;
-    background-color: rgba(231, 173, 72, 0);
-    position: absolute;
-    left: 928px;
-    top: 2006px;
-    width: 147px;
-    height: 48px;
-    z-index: 237;
-  }
+.pricing {
+    text-align: center;
+    background: #e7edf3;
+    height: 898px;
+    display: flex;
+    align-items: center;
 
-  .Read_more {
-    font-size: 14px;
-    font-family: "Lato";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: left;
-    position: absolute;
-    left: 962px;
-    top: 2021.6px;
-    z-index: 238;
-  }
+    .pricing__h2 {
+        font-family: 'GothamPro-Black';
+        font-size: 30px;
+        color: rgb(57, 75, 80);
+        text-transform: uppercase;
+    }
+
+    .pricing__p {
+        font-family: "MyriadPro-Light";
+        font-size: 18px;
+        color: rgb(57, 75, 80);
+        line-height: 0.733;
+        margin-bottom: 53px;
+    }
+
+    .pricing__block {
+        display: flex;
+        align-items: center;
+        
+
+        .first-pricing {
+            width: 388px;
+            height: 441px;
+            border: 1px solid #ccd5df;
+            background: #ffffff;
+            padding: 55px 28px 47px 28px;
+            color: rgb(129, 139, 149);
+            font-family: 'Lato Regular';
+            text-transform: uppercase;
+
+            .first-pricing__h4 {
+                font-size: 25px;
+            }
+
+            .first-pricing__price {
+                color: #ffbb42;
+                font-family: 'Lato Regular';
+                font-size: 60px;
+                font-weight: 600;
+
+                .first-pricing__span {
+                    font-size: 30px;
+                    position: relative;
+                    top: -25px;
+                }
+            }
+
+            .first-pricing__month {
+                margin-bottom: 34px;
+            }
+
+            .first-pricing__p {
+                margin-bottom: 0px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                border-top: 1px solid #ccd5df;
+            }
+
+            .first-pricing__btn {
+                background: #ffbb42;
+                color: white;
+                width: 132px;
+                height: 43px;
+                border-radius: 2px;
+                text-transform: uppercase;
+            }
+        }
+    
+        .second-pricing {
+            width: 396px;
+            height: 502px;
+            background: #709dca;
+            color: white;
+            padding: 86px 33px 77px 33px;
+            font-family: 'Lato Regular';
+            text-transform: uppercase;
+
+            .second-pricing__h4 {
+                font-size: 25px;
+            }
+
+            .second-pricing__price {
+                font-family: 'Lato Regular';
+                font-size: 60px;
+                font-weight: 600;
+
+                .second-pricing__span {
+                    font-size: 30px;
+                    position: relative;
+                    top: -25px;
+                    font-weight: 300;
+                }
+            }
+
+            .second-pricing__month {
+                margin-bottom: 34px;
+            }
+
+            .second-pricing__p {
+                margin-bottom: 0px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                border-top: 1px solid #ffffff;
+            }
+
+            .second-pricing__btn {
+                background: #ffbb42;
+                color: white;
+                width: 132px;
+                height: 43px;
+                border-radius: 2px;
+                text-transform: uppercase;
+            }
+        }
+    
+        .third-pricing {
+            width: 388px;
+            height: 441px;
+            border: 1px solid #ccd5df;
+            background: #ffffff;
+            padding: 55px 28px 47px 28px;
+            color: rgb(129, 139, 149);
+            font-family: 'Lato Regular';
+            text-transform: uppercase;
+
+            .third-pricing__h4 {
+                font-size: 25px;
+            }
+
+            .third-pricing__price {
+                color: #ffbb42;
+                font-family: 'Lato Regular';
+                font-size: 60px;
+                font-weight: 600;
+
+                .third-pricing__span {
+                    font-size: 30px;
+                    position: relative;
+                    top: -25px;
+                }
+            }
+
+            .third-pricing__month {
+                margin-bottom: 34px;
+            }
+
+            .third-pricing__p {
+                margin-bottom: 0px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                border-top: 1px solid #ccd5df;
+            }
+
+            .third-pricing__btn {
+                background: #ffbb42;
+                color: white;
+                width: 132px;
+                height: 43px;
+                border-radius: 2px;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+
+}
+
+
+   
   
   
   

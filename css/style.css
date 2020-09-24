@@ -237,29 +237,149 @@ h1, h2, h3, h4, h5, h6 {
   background: #ffc155;
 }
 
-.Rounded_Rectangle_2_copy_4 {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e7ad48;
-  border-radius: 2px;
-  background-color: rgba(231, 173, 72, 0);
-  position: absolute;
-  left: 928px;
-  top: 2006px;
-  width: 147px;
-  height: 48px;
-  z-index: 237;
+.pricing {
+  text-align: center;
+  background: #e7edf3;
+  height: 898px;
+  display: flex;
+  align-items: center;
 }
-
-.Read_more {
-  font-size: 14px;
-  font-family: "Lato";
-  color: white;
+.pricing .pricing__h2 {
+  font-family: "GothamPro-Black";
+  font-size: 30px;
+  color: #394b50;
   text-transform: uppercase;
-  line-height: 1.2;
-  text-align: left;
-  position: absolute;
-  left: 962px;
-  top: 2021.6px;
-  z-index: 238;
+}
+.pricing .pricing__p {
+  font-family: "MyriadPro-Light";
+  font-size: 18px;
+  color: #394b50;
+  line-height: 0.733;
+  margin-bottom: 53px;
+}
+.pricing .pricing__block {
+  display: flex;
+  align-items: center;
+}
+.pricing .pricing__block .first-pricing {
+  width: 388px;
+  height: 441px;
+  border: 1px solid #ccd5df;
+  background: #ffffff;
+  padding: 55px 28px 47px 28px;
+  color: #818b95;
+  font-family: "Lato Regular";
+  text-transform: uppercase;
+}
+.pricing .pricing__block .first-pricing .first-pricing__h4 {
+  font-size: 25px;
+}
+.pricing .pricing__block .first-pricing .first-pricing__price {
+  color: #ffbb42;
+  font-family: "Lato Regular";
+  font-size: 60px;
+  font-weight: 600;
+}
+.pricing .pricing__block .first-pricing .first-pricing__price .first-pricing__span {
+  font-size: 30px;
+  position: relative;
+  top: -25px;
+}
+.pricing .pricing__block .first-pricing .first-pricing__month {
+  margin-bottom: 34px;
+}
+.pricing .pricing__block .first-pricing .first-pricing__p {
+  margin-bottom: 0px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ccd5df;
+}
+.pricing .pricing__block .first-pricing .first-pricing__btn {
+  background: #ffbb42;
+  color: white;
+  width: 132px;
+  height: 43px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.pricing .pricing__block .second-pricing {
+  width: 396px;
+  height: 502px;
+  background: #709dca;
+  color: white;
+  padding: 86px 33px 77px 33px;
+  font-family: "Lato Regular";
+  text-transform: uppercase;
+}
+.pricing .pricing__block .second-pricing .second-pricing__h4 {
+  font-size: 25px;
+}
+.pricing .pricing__block .second-pricing .second-pricing__price {
+  font-family: "Lato Regular";
+  font-size: 60px;
+  font-weight: 600;
+}
+.pricing .pricing__block .second-pricing .second-pricing__price .second-pricing__span {
+  font-size: 30px;
+  position: relative;
+  top: -25px;
+  font-weight: 300;
+}
+.pricing .pricing__block .second-pricing .second-pricing__month {
+  margin-bottom: 34px;
+}
+.pricing .pricing__block .second-pricing .second-pricing__p {
+  margin-bottom: 0px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ffffff;
+}
+.pricing .pricing__block .second-pricing .second-pricing__btn {
+  background: #ffbb42;
+  color: white;
+  width: 132px;
+  height: 43px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.pricing .pricing__block .third-pricing {
+  width: 388px;
+  height: 441px;
+  border: 1px solid #ccd5df;
+  background: #ffffff;
+  padding: 55px 28px 47px 28px;
+  color: #818b95;
+  font-family: "Lato Regular";
+  text-transform: uppercase;
+}
+.pricing .pricing__block .third-pricing .third-pricing__h4 {
+  font-size: 25px;
+}
+.pricing .pricing__block .third-pricing .third-pricing__price {
+  color: #ffbb42;
+  font-family: "Lato Regular";
+  font-size: 60px;
+  font-weight: 600;
+}
+.pricing .pricing__block .third-pricing .third-pricing__price .third-pricing__span {
+  font-size: 30px;
+  position: relative;
+  top: -25px;
+}
+.pricing .pricing__block .third-pricing .third-pricing__month {
+  margin-bottom: 34px;
+}
+.pricing .pricing__block .third-pricing .third-pricing__p {
+  margin-bottom: 0px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ccd5df;
+}
+.pricing .pricing__block .third-pricing .third-pricing__btn {
+  background: #ffbb42;
+  color: white;
+  width: 132px;
+  height: 43px;
+  border-radius: 2px;
+  text-transform: uppercase;
 }
