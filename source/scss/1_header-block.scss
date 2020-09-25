@@ -1,0 +1,38 @@
+.header-block {
+    height: 90px;
+    display: flex;
+    align-items: center;
+
+        .header-block__img {
+            height: 50px;
+		}
+
+		.header-block__nav {
+            margin-left: auto;
+
+            .nav__allMenu {
+                display: flex;
+                font-family: 'Lato Regular';
+                font-size: 13.5px;
+
+                .nav__elemMenu {
+                    text-transform: uppercase;
+                    padding: 13px 20px;
+                    height: 35px;
+
+                    &:hover {                                               // + актив!!!!!!!!!!
+                        background: #ffbb42;
+                        border-radius: 2px;
+
+                        .nav__link {
+                            color: white;
+                        }
+                    }
+
+                    .nav__link {
+                        color: #9e9e9e;
+                    }
+                } 
+            }
+        }
+}

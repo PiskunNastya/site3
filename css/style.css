@@ -73,14 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.banner .form .form__phone, .banner .form .form__email, .banner .form .form__name {
-  padding: 15px 15px 15px 40px;
-  height: 46px;
-  border-radius: 2px;
-  font-family: "Open Sans";
-  margin-top: 36px;
-}
-
 .header-block {
   height: 90px;
   display: flex;
@@ -158,17 +150,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 202px;
 }
 .service .service__h1 {
-  font-family: "GothamPro-Black";
-  font-size: 30px;
-  text-transform: uppercase;
-  color: #394b50;
   text-align: center;
 }
 .service > .service__p {
-  font-family: "MyriadPro-Light";
   font-weight: 600;
-  color: #394b50;
-  font-size: 18px;
   text-align: center;
   margin-bottom: 90px;
 }
@@ -244,16 +229,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
 }
-.pricing .pricing__h2 {
-  font-family: "GothamPro-Black";
-  font-size: 30px;
-  color: #394b50;
-  text-transform: uppercase;
-}
 .pricing .pricing__p {
-  font-family: "MyriadPro-Light";
-  font-size: 18px;
-  color: #394b50;
   line-height: 0.733;
   margin-bottom: 53px;
 }
@@ -295,12 +271,8 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #ccd5df;
 }
 .pricing .pricing__block .first-pricing .first-pricing__btn {
-  background: #ffbb42;
-  color: white;
   width: 132px;
   height: 43px;
-  border-radius: 2px;
-  text-transform: uppercase;
 }
 .pricing .pricing__block .second-pricing {
   width: 396px;
@@ -335,12 +307,8 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #ffffff;
 }
 .pricing .pricing__block .second-pricing .second-pricing__btn {
-  background: #ffbb42;
-  color: white;
   width: 132px;
   height: 43px;
-  border-radius: 2px;
-  text-transform: uppercase;
 }
 .pricing .pricing__block .third-pricing {
   width: 388px;
@@ -376,10 +344,80 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #ccd5df;
 }
 .pricing .pricing__block .third-pricing .third-pricing__btn {
-  background: #ffbb42;
-  color: white;
   width: 132px;
   height: 43px;
+}
+
+.how-it-work {
+  text-align: center;
+  height: 855px;
+  padding: 155px 30px 148px 30px;
+}
+.how-it-work .how-it-work__p {
+  line-height: 0.733;
+  margin-bottom: 107px;
+  font-weight: 600;
+}
+.how-it-work .how-it-work__blocks {
+  display: flex;
+}
+.how-it-work .how-it-work__blocks .step__img {
+  margin-bottom: 100px;
+  position: relative;
+  height: 68px;
+}
+.how-it-work .how-it-work__blocks .step__img .step__arrow_down {
+  position: absolute;
+  left: 74%;
+  top: -74%;
+}
+.how-it-work .how-it-work__blocks .step__img .step__arrow_up {
+  position: absolute;
+  left: 74%;
+  bottom: -74%;
+}
+.how-it-work .how-it-work__blocks .step__h4 {
+  font-family: "Lato Regular";
+  color: #394b50;
+  font-size: 20px;
+  font-weight: bold;
+}
+.how-it-work .how-it-work__blocks .step__p {
+  line-height: 1.692;
+  margin-bottom: 94px;
+  font-family: "Open Sans";
+  color: #7b7b7b;
+  font-size: 13px;
+}
+.how-it-work .how-it-work__btn {
+  width: 165px;
+  height: 46px;
+}
+
+.banner .form .form__name, .banner .form .form__email, .banner .form .form__phone {
+  padding: 15px 15px 15px 40px;
+  height: 46px;
+  border-radius: 2px;
+  font-family: "Open Sans";
+  margin-top: 36px;
+}
+
+.service .service__h1, .pricing .pricing__h2, .how-it-work .how-it-work__h2 {
+  font-family: "GothamPro-Black";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #394b50;
+}
+
+.service > .service__p, .pricing .pricing__p, .how-it-work .how-it-work__p {
+  font-family: "MyriadPro-Light";
+  font-size: 18px;
+  color: #394b50;
+}
+
+.pricing .pricing__block .first-pricing .first-pricing__btn, .pricing .pricing__block .second-pricing .second-pricing__btn, .pricing .pricing__block .third-pricing .third-pricing__btn, .how-it-work .how-it-work__btn {
+  background: #ffbb42;
+  color: white;
   border-radius: 2px;
   text-transform: uppercase;
 }

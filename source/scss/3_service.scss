@@ -1,0 +1,54 @@
+.service {
+    margin-top: 202px;
+
+    .service__h1 { 
+        @extend %text_h1;
+
+        text-align: center;
+    }
+
+    >.service__p {
+        @extend %text_p;
+
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .service__twoBlocks {
+        display: flex;
+
+        .service__block {
+            width: 50%;
+            margin-bottom: 81px;
+            display: flex;
+
+            .service__icon {
+                height: 45px;
+                margin-right: 36px;
+            }
+
+            .service__text {
+                width: 77%;
+
+                .service__h3 {
+                    font-family: 'Lato Regular';
+                    font-size: 16px;
+                    color: rgb(57, 75, 80);
+                    font-weight: bold;
+                    margin-bottom: 24px;
+                }
+
+                .service__p {
+                    font-size: 13px;
+                    font-family: "Open Sans";
+                    color: rgb(123, 123, 123);
+                    line-height: 1.692;
+                }
+            }
+
+
+
+        }
+    }
+}

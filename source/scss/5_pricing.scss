@@ -1,0 +1,160 @@
+.pricing {
+    text-align: center;
+    background: #e7edf3;
+    height: 898px;
+    display: flex;
+    align-items: center;
+
+    .pricing__h2 { 
+        @extend %text_h1;
+    }
+
+    .pricing__p {
+        @extend %text_p;
+
+        line-height: 0.733;
+        margin-bottom: 53px;
+    }
+
+    .pricing__block {
+        display: flex;
+        align-items: center;
+        
+
+        .first-pricing {
+            width: 388px;
+            height: 441px;
+            border: 1px solid #ccd5df;
+            background: #ffffff;
+            padding: 55px 28px 47px 28px;
+            color: rgb(129, 139, 149);
+            font-family: 'Lato Regular';
+            text-transform: uppercase;
+
+            .first-pricing__h4 {
+                font-size: 25px;
+            }
+
+            .first-pricing__price {
+                color: #ffbb42;
+                font-family: 'Lato Regular';
+                font-size: 60px;
+                font-weight: 600;
+
+                .first-pricing__span {
+                    font-size: 30px;
+                    position: relative;
+                    top: -25px;
+                }
+            }
+
+            .first-pricing__month {
+                margin-bottom: 34px;
+            }
+
+            .first-pricing__p {
+                margin-bottom: 0px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                border-top: 1px solid #ccd5df;
+            }
+
+            .first-pricing__btn {
+                @extend %btn;
+                width: 132px;
+                height: 43px;
+            }
+        }
+    
+        .second-pricing {
+            width: 396px;
+            height: 502px;
+            background: #709dca;
+            color: white;
+            padding: 86px 33px 77px 33px;
+            font-family: 'Lato Regular';
+            text-transform: uppercase;
+
+            .second-pricing__h4 {
+                font-size: 25px;
+            }
+
+            .second-pricing__price {
+                font-family: 'Lato Regular';
+                font-size: 60px;
+                font-weight: 600;
+
+                .second-pricing__span {
+                    font-size: 30px;
+                    position: relative;
+                    top: -25px;
+                    font-weight: 300;
+                }
+            }
+
+            .second-pricing__month {
+                margin-bottom: 34px;
+            }
+
+            .second-pricing__p {
+                margin-bottom: 0px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                border-top: 1px solid #ffffff;
+            }
+
+            .second-pricing__btn {
+                @extend %btn;
+                width: 132px;
+                height: 43px;
+            }
+        }
+    
+        .third-pricing {
+            width: 388px;
+            height: 441px;
+            border: 1px solid #ccd5df;
+            background: #ffffff;
+            padding: 55px 28px 47px 28px;
+            color: rgb(129, 139, 149);
+            font-family: 'Lato Regular';
+            text-transform: uppercase;
+
+            .third-pricing__h4 {
+                font-size: 25px;
+            }
+
+            .third-pricing__price {
+                color: #ffbb42;
+                font-family: 'Lato Regular';
+                font-size: 60px;
+                font-weight: 600;
+
+                .third-pricing__span {
+                    font-size: 30px;
+                    position: relative;
+                    top: -25px;
+                }
+            }
+
+            .third-pricing__month {
+                margin-bottom: 34px;
+            }
+
+            .third-pricing__p {
+                margin-bottom: 0px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                border-top: 1px solid #ccd5df;
+            }
+
+            .third-pricing__btn {
+                @extend %btn;
+                width: 132px;
+                height: 43px;
+            }
+        }
+    }
+
+
+}

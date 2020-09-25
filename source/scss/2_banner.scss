@@ -1,0 +1,53 @@
+.banner {
+    background: #709dca;
+    text-align: center;
+
+    .banner__h1 {
+        font-family: 'GothamPro-Black';
+        font-size: 35px;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        padding-top: 110px;
+    }
+
+    .banner__text {
+        font-family: 'MyriadPro-Light';
+        color: rgb(255, 255, 255);
+        line-height: 0.686;
+        font-size: 18px;
+    }
+
+    .form {
+
+        .form__name {
+            background: url("../../img/icon1.png") no-repeat 17px 15px;
+            background-color: white;
+            @extend %form___input___display;
+        }
+
+        .form__email {
+            background: url("../../img/icon2.png") no-repeat 17px 15px;
+            background-color: white;
+            @extend %form___input___display;
+        }
+
+        .form__phone {
+            background: url("../../img/icon3.png") no-repeat 17px 15px;
+            background-color: white;
+            @extend %form___input___display;
+        }
+
+        .form__btn {
+            width: 210px;
+            height: 46px;
+            background: #ffbb42;
+            color: white;
+            border-radius: 2px;
+        }
+    }
+
+    .banner__images {
+        position: relative;
+        top: 80px;
+    }
+}

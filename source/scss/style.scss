@@ -5,6 +5,15 @@
 @import "../../fonts/myriadpro-light/myriadpro-light.css"; // font-family: "MyriadPro-Light";
 @import "../../fonts/open_sans/open_sans.css"; // font-family: 'Open Sans';
 
+@import "1_header-block.scss";
+@import "2_banner.scss";
+@import "3_service.scss";
+@import "4_aboutUs.scss";
+@import "5_pricing.scss";
+@import "6_how-it-work.scss";
+
+
+
 %form___input___display {
     padding: 15px 15px 15px 40px;
     height: 46px;
@@ -13,375 +22,34 @@
     margin-top: 36px;
 }
 
+%text_h1 {
+    font-family: 'GothamPro-Black';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(57, 75, 80);
+}
 
-.header-block {
-    height: 90px;
-    display: flex;
-    align-items: center;
+%text_p {
+    font-family: 'MyriadPro-Light';
+    font-size: 18px;
+    color: rgb(57, 75, 80);
+}
 
-        .header-block__img {
-            height: 50px;
-		}
-
-		.header-block__nav {
-            margin-left: auto;
-
-            .nav__allMenu {
-                display: flex;
-                font-family: 'Lato Regular';
-                font-size: 13.5px;
-
-                .nav__elemMenu {
-                    text-transform: uppercase;
-                    padding: 13px 20px;
-                    height: 35px;
-
-                    &:hover {                                               // + актив!!!!!!!!!!
-                        background: #ffbb42;
-                        border-radius: 2px;
-
-                        .nav__link {
-                            color: white;
-                        }
-                    }
-
-                    .nav__link {
-                        color: #9e9e9e;
-                    }
-                } 
-            }
-        }
+%btn {
+    background: #ffbb42;
+    color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
 }
 
 
-.banner {
-    background: #709dca;
-    text-align: center;
 
-    .banner__h1 {
-        font-family: 'GothamPro-Black';
-        font-size: 35px;
-        text-transform: uppercase;
-        color: rgb(255, 255, 255);
-        padding-top: 110px;
-    }
 
-    .banner__text {
-        font-family: 'MyriadPro-Light';
-        color: rgb(255, 255, 255);
-        line-height: 0.686;
-        font-size: 18px;
-    }
-
-    .form {
-
-        .form__name {
-            background: url("../../img/icon1.png") no-repeat 17px 15px;
-            background-color: white;
-            @extend %form___input___display;
-        }
-
-        .form__email {
-            background: url("../../img/icon2.png") no-repeat 17px 15px;
-            background-color: white;
-            @extend %form___input___display;
-        }
-
-        .form__phone {
-            background: url("../../img/icon3.png") no-repeat 17px 15px;
-            background-color: white;
-            @extend %form___input___display;
-        }
-
-        .form__btn {
-            width: 210px;
-            height: 46px;
-            background: #ffbb42;
-            color: white;
-            border-radius: 2px;
-        }
-    }
-
-    .banner__images {
-        position: relative;
-        top: 80px;
-    }
-}
-
-.service {
-    margin-top: 202px;
-
-    .service__h1 {
-        font-family: 'GothamPro-Black';
-        font-size: 30px;
-        text-transform: uppercase;
-        color: rgb(57, 75, 80);
-        text-align: center;
-    }
-
-    >.service__p {
-        font-family: 'MyriadPro-Light';
-        font-weight: 600;
-        color: rgb(57, 75, 80);
-        font-size: 18px;
-        text-align: center;
-        margin-bottom: 90px;
-    }
-
-    .service__twoBlocks {
-        display: flex;
-
-        .service__block {
-            width: 50%;
-            margin-bottom: 81px;
-            display: flex;
-
-            .service__icon {
-                height: 45px;
-                margin-right: 36px;
-            }
-
-            .service__text {
-                width: 77%;
-
-                .service__h3 {
-                    font-family: 'Lato Regular';
-                    font-size: 16px;
-                    color: rgb(57, 75, 80);
-                    font-weight: bold;
-                    margin-bottom: 24px;
-                }
-
-                .service__p {
-                    font-size: 13px;
-                    font-family: "Open Sans";
-                    color: rgb(123, 123, 123);
-                    line-height: 1.692;
-                }
-            }
+ 
 
 
 
-        }
-    }
-}
 
-.aboutUs {
-    display: flex;
-    background: #ffc155;
-
-    .aboutUs__img {
-        width: 50%;
-    }
-
-    .aboutUs__text {
-        width: 50%;
-        // background: #ffc155;
-        color: white;
-        margin-left: 80px;
-        // margin-right: 262px;
-
-        .aboutUs__h2 {
-            font-family: 'GothamPro-Black';
-            font-size: 30px;
-            color: rgb(255, 255, 255);
-            text-transform: uppercase;
-            margin-top: 165px;
-        }
-
-        .aboutUs__p {
-            margin-top: 28px;
-            margin-bottom: 28px;
-            line-height: 1.846;
-        }
-
-        .aboutUs__btn {
-            border-style: solid;
-            border-width: 1px;
-            border-color: rgb(231, 173, 72);
-            border-radius: 2px;
-            width: 147px;
-            height: 48px;
-            font-family: 'Lato Regular';
-            color: white;
-            background: #ffc155;
-        }
-    }
-}
-
-.pricing {
-    text-align: center;
-    background: #e7edf3;
-    height: 898px;
-    display: flex;
-    align-items: center;
-
-    .pricing__h2 {
-        font-family: 'GothamPro-Black';
-        font-size: 30px;
-        color: rgb(57, 75, 80);
-        text-transform: uppercase;
-    }
-
-    .pricing__p {
-        font-family: "MyriadPro-Light";
-        font-size: 18px;
-        color: rgb(57, 75, 80);
-        line-height: 0.733;
-        margin-bottom: 53px;
-    }
-
-    .pricing__block {
-        display: flex;
-        align-items: center;
-        
-
-        .first-pricing {
-            width: 388px;
-            height: 441px;
-            border: 1px solid #ccd5df;
-            background: #ffffff;
-            padding: 55px 28px 47px 28px;
-            color: rgb(129, 139, 149);
-            font-family: 'Lato Regular';
-            text-transform: uppercase;
-
-            .first-pricing__h4 {
-                font-size: 25px;
-            }
-
-            .first-pricing__price {
-                color: #ffbb42;
-                font-family: 'Lato Regular';
-                font-size: 60px;
-                font-weight: 600;
-
-                .first-pricing__span {
-                    font-size: 30px;
-                    position: relative;
-                    top: -25px;
-                }
-            }
-
-            .first-pricing__month {
-                margin-bottom: 34px;
-            }
-
-            .first-pricing__p {
-                margin-bottom: 0px;
-                padding-top: 14px;
-                padding-bottom: 14px;
-                border-top: 1px solid #ccd5df;
-            }
-
-            .first-pricing__btn {
-                background: #ffbb42;
-                color: white;
-                width: 132px;
-                height: 43px;
-                border-radius: 2px;
-                text-transform: uppercase;
-            }
-        }
-    
-        .second-pricing {
-            width: 396px;
-            height: 502px;
-            background: #709dca;
-            color: white;
-            padding: 86px 33px 77px 33px;
-            font-family: 'Lato Regular';
-            text-transform: uppercase;
-
-            .second-pricing__h4 {
-                font-size: 25px;
-            }
-
-            .second-pricing__price {
-                font-family: 'Lato Regular';
-                font-size: 60px;
-                font-weight: 600;
-
-                .second-pricing__span {
-                    font-size: 30px;
-                    position: relative;
-                    top: -25px;
-                    font-weight: 300;
-                }
-            }
-
-            .second-pricing__month {
-                margin-bottom: 34px;
-            }
-
-            .second-pricing__p {
-                margin-bottom: 0px;
-                padding-top: 14px;
-                padding-bottom: 14px;
-                border-top: 1px solid #ffffff;
-            }
-
-            .second-pricing__btn {
-                background: #ffbb42;
-                color: white;
-                width: 132px;
-                height: 43px;
-                border-radius: 2px;
-                text-transform: uppercase;
-            }
-        }
-    
-        .third-pricing {
-            width: 388px;
-            height: 441px;
-            border: 1px solid #ccd5df;
-            background: #ffffff;
-            padding: 55px 28px 47px 28px;
-            color: rgb(129, 139, 149);
-            font-family: 'Lato Regular';
-            text-transform: uppercase;
-
-            .third-pricing__h4 {
-                font-size: 25px;
-            }
-
-            .third-pricing__price {
-                color: #ffbb42;
-                font-family: 'Lato Regular';
-                font-size: 60px;
-                font-weight: 600;
-
-                .third-pricing__span {
-                    font-size: 30px;
-                    position: relative;
-                    top: -25px;
-                }
-            }
-
-            .third-pricing__month {
-                margin-bottom: 34px;
-            }
-
-            .third-pricing__p {
-                margin-bottom: 0px;
-                padding-top: 14px;
-                padding-bottom: 14px;
-                border-top: 1px solid #ccd5df;
-            }
-
-            .third-pricing__btn {
-                background: #ffbb42;
-                color: white;
-                width: 132px;
-                height: 43px;
-                border-radius: 2px;
-                text-transform: uppercase;
-            }
-        }
-    }
-
-
-}
 
 
    

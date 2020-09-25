@@ -1,0 +1,42 @@
+.aboutUs {
+    display: flex;
+    background: #ffc155;
+
+    .aboutUs__img {
+        width: 50%;
+    }
+
+    .aboutUs__text {
+        width: 50%;
+        // background: #ffc155;
+        color: white;
+        margin-left: 80px;
+        // margin-right: 262px;
+
+        .aboutUs__h2 {
+            font-family: 'GothamPro-Black';
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            margin-top: 165px;
+        }
+
+        .aboutUs__p {
+            margin-top: 28px;
+            margin-bottom: 28px;
+            line-height: 1.846;
+        }
+
+        .aboutUs__btn {
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(231, 173, 72);
+            border-radius: 2px;
+            width: 147px;
+            height: 48px;
+            font-family: 'Lato Regular';
+            color: white;
+            background: #ffc155;
+        }
+    }
+}
