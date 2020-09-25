@@ -394,6 +394,84 @@ h1, h2, h3, h4, h5, h6 {
   height: 46px;
 }
 
+.clients {
+  background: #ffc155;
+  height: 910px;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 160px;
+}
+.clients .clients__h2 {
+  font-family: "GothamPro-Black";
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+.clients .clients__p {
+  font-family: "MyriadPro-Light";
+  font-size: 18px;
+  color: white;
+  margin-bottom: 58px;
+}
+.clients .clients__blocks-quotes {
+  display: flex;
+}
+.clients .clients__blocks-quotes .clients__block-quote {
+  display: flex;
+  height: 241px;
+  padding-top: 44px;
+  padding-bottom: 51px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 5px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+.clients .clients__blocks-quotes .clients__block-quote .clients__block-img {
+  height: 121px;
+}
+.clients .clients__blocks-quotes .clients__block-quote .clients__block-text .clients__quote {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #7b7b7b;
+  line-height: 1.692;
+}
+.clients .clients__blocks-quotes .clients__block-quote .clients__block-text .clients__aboutClient {
+  text-transform: uppercase;
+  font-family: "Lato Regular";
+  font-size: 14px;
+  color: #a7b4b9;
+}
+.clients .clients__blocks-quotes .clients__block-quote .clients__block-text .clients__aboutClient .clients__name {
+  color: #f6772c;
+}
+.clients .clients__blocks-quotes .clients__block-quote_right-top {
+  margin-right: 18px;
+  margin-bottom: 20px;
+}
+.clients .clients__blocks-quotes .clients__block-quote_right-bottom {
+  margin-right: 18px;
+}
+.clients .clients__blocks-quotes .clients__block-quote_left-top {
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+.clients .clients__blocks-quotes .clients__block-quote_left-bottom {
+  margin-left: 18px;
+}
+
+.Clips_arter__Lipsum_directer {
+  font-size: 14px;
+  font-family: "Lato";
+  color: #f6772c;
+  text-transform: uppercase;
+  line-height: 1.571;
+  position: absolute;
+  left: 447px;
+  top: 4685.368px;
+  z-index: 92;
+}
+
 .banner .form .form__name, .banner .form .form__email, .banner .form .form__phone {
   padding: 15px 15px 15px 40px;
   height: 46px;

@@ -1,0 +1,98 @@
+.clients {
+    background: #ffc155;
+    height: 910px;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 160px;
+
+    .clients__h2 {
+        font-family: 'GothamPro-Black';
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+    }
+
+    .clients__p {
+        font-family: 'MyriadPro-Light';
+        font-size: 18px;
+        color: white;
+        margin-bottom: 58px;
+    }
+
+    .clients__blocks-quotes {
+        display: flex;
+        
+
+        .clients__block-quote {
+            display: flex;
+            height: 241px;
+            padding-top: 44px;
+            padding-bottom: 51px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin: 5px;
+            background: #ffffff;
+            border-radius: 2px;
+
+            .clients__block-img {
+                height: 121px;
+            }
+
+            .clients__block-text {
+
+                .clients__quote {
+                    font-family: 'Open Sans';
+                    font-size: 13px;
+                    color: rgb(123, 123, 123);
+                    line-height: 1.692;
+                }
+
+                .clients__aboutClient {
+                    text-transform: uppercase;
+                    font-family: 'Lato Regular';
+                    font-size: 14px;
+                    color: #a7b4b9;
+
+                    .clients__name {
+                        color: rgb(246, 119, 44);
+                    }
+                }
+            }
+        }
+
+        .clients__block-quote_right-top {
+            margin-right: 18px;
+            margin-bottom: 20px;
+        }
+
+        .clients__block-quote_right-bottom {
+            margin-right: 18px;
+        }
+
+        .clients__block-quote_left-top {
+            margin-left: 18px;
+            margin-bottom: 20px;
+        }
+
+        .clients__block-quote_left-bottom {
+            margin-left: 18px;
+        }
+
+    }
+
+}
+
+
+.Clips_arter__Lipsum_directer {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(246, 119, 44);
+    text-transform: uppercase;
+    line-height: 1.571;
+    position: absolute;
+    left: 447px;
+    top: 4685.368px;
+    z-index: 92;
+  }
+  
+  
