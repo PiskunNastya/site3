@@ -1,0 +1,45 @@
+.block-form {
+    text-align: center;
+    height: 945px;
+
+    .block-form__h2 {
+        @extend %text_h1;
+
+        margin-top: 154px;
+    }
+
+    .block-form__p {
+        @extend %text_p;
+    }
+
+    .block-form__form {
+        [type="text"] {
+            background: url("../../img/icon1.png") no-repeat 17px 15px;
+            background-color: white;
+            height: 46px;
+            border: 1px solid rgb(203, 203, 203);
+            @extend %form___input___display;
+        }
+
+        [type="email"] {
+            background: url("../../img/icon2.png") no-repeat 17px 15px;
+            background-color: white;
+            height: 46px;
+            border: 1px solid rgb(203, 203, 203);
+            @extend %form___input___display;
+        }
+
+        [type="button"] {
+            width: 210px;
+            height: 46px;
+            @extend %btn;
+        }
+    }
+
+    .block-form__address {
+        background-image: url('../../img/background.png');
+        height: 659px;
+    }
+}
+
+

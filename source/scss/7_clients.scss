@@ -39,12 +39,32 @@
             }
 
             .clients__block-text {
+                padding-left: 34px;
 
                 .clients__quote {
                     font-family: 'Open Sans';
                     font-size: 13px;
                     color: rgb(123, 123, 123);
                     line-height: 1.692;
+                    position: relative;
+
+                    &:before {
+                        content: "\"";
+                        font-weight: bold;
+                        font-size: 30px;
+                        position: absolute;
+                        top: -20px;
+                        left: -14px;
+                    }
+
+                    &:after {
+                        content: "\"";
+                        font-weight: bold;
+                        font-size: 30px;
+                        position: absolute;
+                        bottom: -24px;
+                        right: 41px;
+                    }
                 }
 
                 .clients__aboutClient {
@@ -83,16 +103,16 @@
 }
 
 
-.Clips_arter__Lipsum_directer {
-    font-size: 14px;
-    font-family: "Lato";
-    color: rgb(246, 119, 44);
-    text-transform: uppercase;
-    line-height: 1.571;
+.___ {
+    font-size: 30px;
+    font-family: "BrandonGrotesque";
+    color: rgb(123, 123, 123);
+    font-weight: bold;
+    line-height: 0.733;
     position: absolute;
-    left: 447px;
-    top: 4685.368px;
-    z-index: 92;
+    left: 420.5px;
+    top: 4268.505px;
+    z-index: 63;
   }
   
   

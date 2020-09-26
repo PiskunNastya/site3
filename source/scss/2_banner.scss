@@ -22,27 +22,29 @@
         .form__name {
             background: url("../../img/icon1.png") no-repeat 17px 15px;
             background-color: white;
+            height: 46px;
             @extend %form___input___display;
         }
 
         .form__email {
             background: url("../../img/icon2.png") no-repeat 17px 15px;
             background-color: white;
+            height: 46px;
             @extend %form___input___display;
         }
 
         .form__phone {
             background: url("../../img/icon3.png") no-repeat 17px 15px;
             background-color: white;
+            height: 46px;
             @extend %form___input___display;
         }
 
         .form__btn {
             width: 210px;
             height: 46px;
-            background: #ffbb42;
-            color: white;
-            border-radius: 2px;
+
+            @extend %btn;
         }
     }
 

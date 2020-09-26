@@ -125,21 +125,21 @@ h1, h2, h3, h4, h5, h6 {
 .banner .form .form__name {
   background: url("../../img/icon1.png") no-repeat 17px 15px;
   background-color: white;
+  height: 46px;
 }
 .banner .form .form__email {
   background: url("../../img/icon2.png") no-repeat 17px 15px;
   background-color: white;
+  height: 46px;
 }
 .banner .form .form__phone {
   background: url("../../img/icon3.png") no-repeat 17px 15px;
   background-color: white;
+  height: 46px;
 }
 .banner .form .form__btn {
   width: 210px;
   height: 46px;
-  background: #ffbb42;
-  color: white;
-  border-radius: 2px;
 }
 .banner .banner__images {
   position: relative;
@@ -430,11 +430,31 @@ h1, h2, h3, h4, h5, h6 {
 .clients .clients__blocks-quotes .clients__block-quote .clients__block-img {
   height: 121px;
 }
+.clients .clients__blocks-quotes .clients__block-quote .clients__block-text {
+  padding-left: 34px;
+}
 .clients .clients__blocks-quotes .clients__block-quote .clients__block-text .clients__quote {
   font-family: "Open Sans";
   font-size: 13px;
   color: #7b7b7b;
   line-height: 1.692;
+  position: relative;
+}
+.clients .clients__blocks-quotes .clients__block-quote .clients__block-text .clients__quote:before {
+  content: '"';
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  top: -20px;
+  left: -14px;
+}
+.clients .clients__blocks-quotes .clients__block-quote .clients__block-text .clients__quote:after {
+  content: '"';
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  bottom: -24px;
+  right: 41px;
 }
 .clients .clients__blocks-quotes .clients__block-quote .clients__block-text .clients__aboutClient {
   text-transform: uppercase;
@@ -460,40 +480,67 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 18px;
 }
 
-.Clips_arter__Lipsum_directer {
-  font-size: 14px;
-  font-family: "Lato";
-  color: #f6772c;
-  text-transform: uppercase;
-  line-height: 1.571;
+.___ {
+  font-size: 30px;
+  font-family: "BrandonGrotesque";
+  color: #7b7b7b;
+  font-weight: bold;
+  line-height: 0.733;
   position: absolute;
-  left: 447px;
-  top: 4685.368px;
-  z-index: 92;
+  left: 420.5px;
+  top: 4268.505px;
+  z-index: 63;
 }
 
-.banner .form .form__name, .banner .form .form__email, .banner .form .form__phone {
-  padding: 15px 15px 15px 40px;
+.block-form {
+  text-align: center;
+  height: 945px;
+}
+.block-form .block-form__h2 {
+  margin-top: 154px;
+}
+.block-form .block-form__form [type=text] {
+  background: url("../../img/icon1.png") no-repeat 17px 15px;
+  background-color: white;
   height: 46px;
+  border: 1px solid #cbcbcb;
+}
+.block-form .block-form__form [type=email] {
+  background: url("../../img/icon2.png") no-repeat 17px 15px;
+  background-color: white;
+  height: 46px;
+  border: 1px solid #cbcbcb;
+}
+.block-form .block-form__form [type=button] {
+  width: 210px;
+  height: 46px;
+}
+.block-form .block-form__address {
+  background-image: url("../../img/background.png");
+  height: 659px;
+}
+
+.banner .form .form__name, .banner .form .form__email, .banner .form .form__phone, .block-form .block-form__form [type=text], .block-form .block-form__form [type=email] {
+  padding: 15px 15px 15px 40px;
   border-radius: 2px;
   font-family: "Open Sans";
   margin-top: 36px;
 }
 
-.service .service__h1, .pricing .pricing__h2, .how-it-work .how-it-work__h2 {
+.service .service__h1, .pricing .pricing__h2, .how-it-work .how-it-work__h2, .block-form .block-form__h2 {
   font-family: "GothamPro-Black";
   font-size: 30px;
   text-transform: uppercase;
   color: #394b50;
 }
 
-.service > .service__p, .pricing .pricing__p, .how-it-work .how-it-work__p {
+.service > .service__p, .pricing .pricing__p, .how-it-work .how-it-work__p, .block-form .block-form__p {
   font-family: "MyriadPro-Light";
   font-size: 18px;
   color: #394b50;
 }
 
-.pricing .pricing__block .first-pricing .first-pricing__btn, .pricing .pricing__block .second-pricing .second-pricing__btn, .pricing .pricing__block .third-pricing .third-pricing__btn, .how-it-work .how-it-work__btn {
+.banner .form .form__btn, .pricing .pricing__block .first-pricing .first-pricing__btn, .pricing .pricing__block .second-pricing .second-pricing__btn, .pricing .pricing__block .third-pricing .third-pricing__btn, .how-it-work .how-it-work__btn, .block-form .block-form__form [type=button] {
   background: #ffbb42;
   color: white;
   border-radius: 2px;
