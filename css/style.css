@@ -73,6 +73,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
 .header-block {
   height: 90px;
   display: flex;
@@ -516,8 +524,130 @@ h1, h2, h3, h4, h5, h6 {
   height: 46px;
 }
 .block-form .block-form__address {
-  background-image: url("../../img/background.png");
+  background: url("../../img/background.png") center center;
+  background-repeat: no-repeat;
   height: 659px;
+  position: relative;
+}
+.block-form .block-form__address .block-form__circle-block .block-form__circle {
+  background: url("../../img/Shape.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 91px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 290px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.block-form .block-form__address .block-form__circle-block .block-form__h5 {
+  font-family: "Lato Regular";
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+}
+.block-form .block-form__address .block-form__circle-block .block-form__pInCircle {
+  font-family: "Lato Regular";
+  line-height: 2.2;
+  color: #aeb7ba;
+}
+.block-form .block-form__address .block-form__circle-block .block-form__emailInCircle {
+  font-family: "Lato Regular";
+  line-height: 2.2;
+  color: #ffbb42;
+}
+.block-form .block-form__address .block-form__img {
+  position: absolute;
+  top: 393px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.Address__Business_street_Second_north_section_B {
+  font-size: 15px;
+  font-family: "Lato";
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 779.078px;
+  top: 5332.034px;
+  z-index: 31;
+}
+
+.footer {
+  height: 263px;
+  position: relative;
+  color: #394b50;
+  font-family: "Lato Regular";
+}
+.footer .footer__block-contact {
+  padding-top: 67px;
+  border-top: 1px solid #b1b1b17a;
+}
+.footer .footer__block-contact .nav .nav__allMenu {
+  display: flex;
+  margin-left: 222px;
+  margin-right: 222px;
+  width: 100%;
+  justify-content: space-between;
+}
+.footer .footer__block-contact .nav .nav__allMenu .nav__elemMenu {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.footer .footer__block-contact .footer__tel {
+  font-size: 22.383px;
+  text-align: center;
+  margin-top: 28px;
+}
+.footer .footer__block-contact .footer__social {
+  text-align: center;
+  margin-top: 25px;
+}
+.footer .footer__block-contact .footer__social img {
+  padding-right: 13px;
+}
+.footer .footer__info {
+  background: #709dca;
+  color: white;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #709dca;
+  color: white;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.Address__Business_street_Second_north_section_B {
+  font-size: 15px;
+  font-family: "Lato";
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 779.078px;
+  top: 5332.034px;
+  z-index: 31;
 }
 
 .banner .form .form__name, .banner .form .form__email, .banner .form .form__phone, .block-form .block-form__form [type=text], .block-form .block-form__form [type=email] {

@@ -37,9 +37,75 @@
     }
 
     .block-form__address {
-        background-image: url('../../img/background.png');
+        background: url('../../img/background.png') center center;
+        background-repeat: no-repeat;
         height: 659px;
+        position: relative;
+
+        .block-form__circle-block {
+
+            .block-form__circle {
+                background: url('../../img/Shape.png');
+                background-position: 50%;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 91px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                height: 290px;
+                width: 290px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .block-form__h5 {
+                font-family: 'Lato Regular';
+                font-size: 15px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: white;
+                line-height: 1.2;
+            }
+
+            .block-form__pInCircle {
+                font-family: 'Lato Regular';
+                line-height: 2.2;
+                color: #aeb7ba;
+            }
+
+            .block-form__emailInCircle {
+                font-family: 'Lato Regular';
+                line-height: 2.2;
+                color: #ffbb42;
+            }
+        }
+
+        .block-form__img {
+            position: absolute;
+            top: 393px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
     }
 }
 
+
+
+.Address__Business_street_Second_north_section_B {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 779.078px;
+    top: 5332.034px;
+    z-index: 31;
+  }
+  
 
